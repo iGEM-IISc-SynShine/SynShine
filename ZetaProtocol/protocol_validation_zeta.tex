@@ -1,0 +1,48 @@
+\documentclass [a4paper,11pt]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{graphicx}
+\usepackage{physics}
+\usepackage{mathrsfs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\F}{\mathbb{F}}
+\begin{document}
+\title{Protocol for Zeta potential method validation}
+\author{Praveen J}
+\date{$26^{th}$ July 2019}
+\maketitle
+\section{Introduction}
+Zeta ($\zeta$) potential is an intrinsic property of the bacteria and medium and depends on pH (which determines charge densities), viscosity (which determines shear plane), etc. The zeta potential meter in CENSE, IISc (ZetaPlus) is sophisticated enough to not only determine the net average zeta potential, but also provide a relative intensity count observed at a particular zeta potential signal. The zeta potential is measured in terms of mobility (velocity divided by potential) and for a constant viscosity and a fixed medium, $\zeta$ is linear to the mobility (according to Smoluchowski’s formula for colloidal particles).\\ \\
+Roughly, this is how the system works:\\
+It uses a coherent light source (laser) of a specific frequency which is shone on the sample and the scattered light signal is received. A potential is applied across the sample to accelerate the charged colloids. Depending on their velocity, and due to Doppler effect of light, components of signals in the light undergo frequency shifts (phase shifts in case of PALS method). This signal (the beat signal) is then Fourier transformed. The frequency scale is co-related to the velocity of the particles, which is co-related to the zeta potential of the particles. The intensity (y axis of this plot) of the signal at that particular frequency is a measure of the population which is of that $\zeta$ potential.
+\section{Verification}
+Fluorescent tag both the bacteria with different frequency tags, as distinct frequencies as possible.\\
+Confirm the consistent expression of fluorescence.
+\subsection{Mixtures at definite ratios}
+Aim: Testing the hypothesis that the ratio of areas of peaks corresponding to the different bacterial population is roughly the actual population ratio.
+\begin{itemize}
+	\item Incubate the bacteria separately
+	\item Prepare diluted samples of both bacteria from master sample to OD ranges around 0.5 - 1.5
+	\item Prepare samples of mixtures at various ratios, 0:5, 1:4, 2:3, 3:2, 4:1, 5:0 and 1:1 with same total volumes and measure the OD values.
+	\item Run these mixtures in the ZetaPlus apparatus to determine the $\zeta$ potential distribution. Save and also note down manually the value to height of the two most prominent peaks. 
+	\item After noise correcting the graph to remove consistent errors due to medium and apparatus, the ratio of areas of the peaks should give an estimate of the ratio of populations.
+	\item Measure the individual cell counts using fluorescent flow cytometry to cross verify the ratio obtained from ZetaPlus.
+\end{itemize}
+\subsection{Studying the Variation of $\zeta$ potential with growth in separate samples}
+Aim: Studying the variation of the $\zeta$ potential distribution and values with population and medium change with time and study possible deviations of linearity of peak area and population.
+\begin{itemize}
+	\item Incubate the bacteria separately
+	\item Take samples at intervals of 2 hrs from time of incubation and measure OD, and run the samples in the ZetaPlus and flow cytometer to obtain the zeta potential distribution and population counts.
+	\item Repeat the procedure till it reaches stationary phase.
+\end{itemize}
+\subsection{Studying the Variation of $\zeta$ potential with growth in mixed samples}
+Aim: Studying the variation of the $\zeta$ potential distribution and values with population and medium change with time in mixed samples and investigate if there is a detectable difference when grown separately and together.
+\begin{itemize}
+	\item Incubate the bacteria together, mixed initially in roughly 1:1 ratio.
+	\item Take samples at intervals of 0.5 to 2 hrs from time of incubation and measure OD, and run the samples in the ZetaPlus and flow cytometer to obtain the zeta potential distribution and population counts.
+	\item Repeat the procedure till it reaches stationary phase.
+\end{itemize}
+
+\end{document}
