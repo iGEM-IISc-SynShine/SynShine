@@ -1,0 +1,43 @@
+timestep = 0.01
+kd1 = 0.0000000385082
+kd2 = 0.0000000577623
+K1 = 0.0001
+K2 = 0.0001
+K3 = 0.001
+alpha1 = 0 (Prelim)
+alpha2 = 0 (Prelim)
+beta1 = 1 - 10
+beta2 = 1 - 10
+gamma1 = 0 - 0.1
+gamma2 = 0 - 0.1
+b1 = 10 (Random guess)
+b2 = 20 (Random guess)
+sigmaB ~ 0.9 - 1.0
+DeltaB ~ 7000 - 22000 (microwatt/sqcm)
+sigmaG ~ 0.125 - 0.9
+DeltaG ~ 5000-25000 (Random Guess) 
+sigmaR ~ 0.05 - 0.38
+DeltaR ~ 5000-25000 (Random Guess)
+SigmaB = sigmaB for Preliminary tests
+deltaB = DeltaB for Preliminary tests
+SigmaG = sigmaG for Preliminary tests
+deltaG = DeltaG for Preliminary tests
+SigmaR = sigmaR for Preliminary tests
+deltaR = DeltaR for Preliminary tests
+mu10 = 0.0231049 ( Corresponds to doubling in 30 min)
+mu20 = 0.0346574 ( Corresponds to doubling in 20 min)
+Pi10 = 1
+Pi20 = 1.1
+Pi30 = 1.2
+P10 = 1
+P20 = 2
+time = 2000
+X1(t=0) = 1000
+X2(t=0) = 2000
+P1(t=0) = 0
+P2(t=0) = 0
+P3(t=0) = 0
+S(t=0) = 1000000
+B = 0 - 50000
+G = 0 - 50000
+R = 0 - 50000
