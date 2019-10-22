@@ -1,0 +1,624 @@
+SciDAVis 1.23.0 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+3565
+<table creation_time="2019-21-09 18:24:22:585" caption_spec="%n%C{ - }%c" name="Table1" columns="2" rows="29"><comment><![CDATA[]]></comment><column creation_time="2019-21-09 18:24:22:585" caption_spec="%n%C{ - }%c" name="1" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2019-21-09 18:24:22:585" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2019-21-09 18:24:22:585" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">4.9000000000000000e+01</row><row type="TypeDouble" index="2" invalid="no">9.2000000000000000e+01</row><row type="TypeDouble" index="3" invalid="no">1.4100000000000000e+02</row><row type="TypeDouble" index="4" invalid="no">1.7200000000000000e+02</row><row type="TypeDouble" index="5" invalid="no">2.0800000000000000e+02</row><row type="TypeDouble" index="6" invalid="no">2.4400000000000000e+02</row><row type="TypeDouble" index="7" invalid="no">2.8000000000000000e+02</row><row type="TypeDouble" index="8" invalid="no">3.1700000000000000e+02</row><row type="TypeDouble" index="9" invalid="no">3.5600000000000000e+02</row><row type="TypeDouble" index="10" invalid="no">3.9800000000000000e+02</row><row type="TypeDouble" index="11" invalid="no">4.5700000000000000e+02</row><row type="TypeDouble" index="12" invalid="no">4.9900000000000000e+02</row><row type="TypeDouble" index="13" invalid="no">5.6000000000000000e+02</row></column><column creation_time="2019-21-09 18:24:22:585" caption_spec="%n%C{ - }%c" name="2" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2019-21-09 18:24:22:585" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2019-21-09 18:24:22:585" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">2.9293000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">2.1229000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">2.3957000000000002e+00</row><row type="TypeDouble" index="3" invalid="no">1.9131000000000000e+00</row><row type="TypeDouble" index="4" invalid="no">1.8465000000000000e+00</row><row type="TypeDouble" index="5" invalid="no">1.7885000000000000e+00</row><row type="TypeDouble" index="6" invalid="no">1.7344999999999999e+00</row><row type="TypeDouble" index="7" invalid="no">1.7104999999999999e+00</row><row type="TypeDouble" index="8" invalid="no">1.6904999999999999e+00</row><row type="TypeDouble" index="9" invalid="no">1.6725000000000001e+00</row><row type="TypeDouble" index="10" invalid="no">1.6525000000000001e+00</row><row type="TypeDouble" index="11" invalid="no">1.6165000000000000e+00</row><row type="TypeDouble" index="12" invalid="no">1.6385000000000001e+00</row><row type="TypeDouble" index="13" invalid="no">1.5461000000000000e+00</row></column><column_width column="0">120</column_width><column_width column="1">120</column_width></table>
+geometry	0	0	573	382	
+
+</table>
+<multiLayer>
+Graph1	1	1	21-09-2019 18:42:49
+geometry	684	118	514	438	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	444	307
+Alignement	0	0
+<graph>
+ggeometry	5	5	489	369
+PlotTitle	Title	#000000	4228
+<Antialiasing>1</Antialiasing>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0	#a0a0a4	2	0	#0000ff	0	0	#a0a0a4	2	0	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	X Axis Title	Y Axis Title			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+TitleFont	MS Shell Dlg 2	10	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	8	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	8	75	0	0	0
+AxisFont0	MS Shell Dlg 2	8	50	0	0	0
+AxisFont1	MS Shell Dlg 2	8	50	0	0	0
+AxisFont2	MS Shell Dlg 2	8	50	0	0	0
+AxisFont3	MS Shell Dlg 2	8	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Table1_1	Table1_2	1	0	0	0	1	7	1	0	0	0	0	14	1	2	0	0	28	1
+FunctionCurve	0,NonLinearFit1,x,0,560	1000			0	1	1	0	1	0	0	0	19	0	0	14	0	2	0	115650504	1263159624	1
+<formula>
+a=1.3838
+b=124.63
+c=82.144
+
+a + b/(x+c)
+</formula>
+scale	0	1.4	3	0	8	5	0	0
+scale	1	1.4	3	0	8	5	0	0
+scale	2	-100	600	0	8	5	0	0
+scale	3	-100	600	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<text>	282.988505747126	2.87814569536424	MS Shell Dlg 2	8	50	0	0	0	#000000	1	0	#ffffff	0	Dataset: Table1_2	Function: a + b/(x+c)		Chi^2 = 0.13946	R^2 = 0.92486	a = 1.3838 +/- 0.10597	b = 124.63 +/- 44.523	c = 82.144 +/- 26.711	</text>
+</graph>
+</multiLayer>
+<log>
+[21-09-2019 18:31:12	Plot: ''Graph1'']
+Exponential decay fit of dataset: Table1_2, using function: y0+A*exp(-x/t)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+A (amplitude) = 0.2793 +/- 4.348e+74
+t (e-folding time) = 1 +/- 1.1041e+73
+y0 (offset) = 1.6429 +/- 0.07103
+--------------------------------------------------------------------------------------
+Chi^2 = 0.15185
+R^2 = -1.6074
+---------------------------------------------------------------------------------------
+Iterations = 0
+Status = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[21-09-2019 18:31:34	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a + b*exp(-c*x)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 1.7511 +/- 0.038158
+b  = 1 +/- 0
+c  = 1 +/- 0
+--------------------------------------------------------------------------------------
+Chi^2 = 0.05824
+R^2 = 2.0329e-17
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[21-09-2019 18:31:58	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a + b*exp(-c*x)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 1.7511 +/- 0.038158
+b  = 1 +/- 0
+c  = 1 +/- 0
+--------------------------------------------------------------------------------------
+Chi^2 = 0.05824
+R^2 = 2.0329e-17
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[21-09-2019 18:32:03	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a + b*exp(-c*x)
+Y standard errors: Unknown
+Nelder-Mead Simplex algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 1.7511 +/- 0.038158
+b  = 10.247 +/- 0
+c  = 7.8804 +/- 0
+--------------------------------------------------------------------------------------
+Chi^2 = 0.05824
+R^2 = 1.3943e-16
+---------------------------------------------------------------------------------------
+Iterations = 1000
+Status = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[21-09-2019 18:32:04	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a + b*exp(-c*x)
+Y standard errors: Unknown
+Nelder-Mead Simplex algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 1.7511 +/- 0.038158
+b  = 19.494 +/- 0
+c  = 14.761 +/- 0
+--------------------------------------------------------------------------------------
+Chi^2 = 0.05824
+R^2 = 1.3943e-16
+---------------------------------------------------------------------------------------
+Iterations = 1000
+Status = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[21-09-2019 18:32:08	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a + b*exp(-c*x)
+Y standard errors: Unknown
+Nelder-Mead Simplex algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 1.7511 +/- 0.038158
+b  = 28.741 +/- 0
+c  = 21.641 +/- 0
+--------------------------------------------------------------------------------------
+Chi^2 = 0.05824
+R^2 = 1.3943e-16
+---------------------------------------------------------------------------------------
+Iterations = 10000
+Status = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[21-09-2019 18:32:11	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a + b*exp(-c*x)
+Y standard errors: Unknown
+Nelder-Mead Simplex algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 1.751 +/- 0.038158
+b  = 39.509 +/- 0
+c  = 55.496 +/- 0
+--------------------------------------------------------------------------------------
+Chi^2 = 0.05824
+R^2 = -8.769e-08
+---------------------------------------------------------------------------------------
+Iterations = 56
+Status = success
+---------------------------------------------------------------------------------------
+[21-09-2019 18:32:57	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a + b*exp(-c*x)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 1.7511 +/- 0.038158
+b  = 39.509 +/- 0
+c  = 55.496 +/- 0
+--------------------------------------------------------------------------------------
+Chi^2 = 0.05824
+R^2 = 2.0329e-17
+---------------------------------------------------------------------------------------
+Iterations = 0
+Status = success
+---------------------------------------------------------------------------------------
+[21-09-2019 18:34:10	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a + b*exp(c*x)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 1 +/- nan
+b  = 1 +/- nan
+--------------------------------------------------------------------------------------
+Chi^2 = nan
+R^2 = nan
+---------------------------------------------------------------------------------------
+Iterations = 0
+Status = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[21-09-2019 18:34:11	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a + b*exp(c*x)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 1 +/- nan
+b  = 1 +/- nan
+--------------------------------------------------------------------------------------
+Chi^2 = nan
+R^2 = nan
+---------------------------------------------------------------------------------------
+Iterations = 0
+Status = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[21-09-2019 18:34:19	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a + b*exp(c*x)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 1 +/- nan
+b  = 1.9929e-19 +/- inf
+c  = 1 +/- inf
+--------------------------------------------------------------------------------------
+Chi^2 = inf
+R^2 = -inf
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[21-09-2019 18:34:37	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a + b*exp(c*x) + d*x
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 1 +/- 0
+b  = 1.3127e-19 +/- 1.0818
+c  = 1 +/- 5.436e+05
+d  = 1 +/- 0
+--------------------------------------------------------------------------------------
+Chi^2 = 8.6044e+307
+R^2 = -inf
+---------------------------------------------------------------------------------------
+Iterations = 0
+Status = success
+---------------------------------------------------------------------------------------
+[21-09-2019 18:34:43	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a + b*exp(c*x) + d*x
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 1 +/- nan
+b  = 1.9929e-19 +/- inf
+c  = 1 +/- inf
+d  = 1 +/- nan
+--------------------------------------------------------------------------------------
+Chi^2 = inf
+R^2 = -inf
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[21-09-2019 18:35:22	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a - b*exp(c*x)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 1 +/- 0
+b  = 2.7932e-20 +/- 1.5611e-10
+c  = 0.5 +/- 7.8449e-05
+--------------------------------------------------------------------------------------
+Chi^2 = 5.5134e+133
+R^2 = -9.4667e+134
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[21-09-2019 18:35:34	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a - b*exp(c*x)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 1 +/- 0
+b  = 2.0446e-10 +/- 1.1427
+c  = 0.5 +/- 5.5168e+05
+--------------------------------------------------------------------------------------
+Chi^2 = 2.9542e+153
+R^2 = -5.0724e+154
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[21-09-2019 18:35:38	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a - b*exp(c*x)
+Y standard errors: Unknown
+Nelder-Mead Simplex algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 1.7511 +/- 0.038158
+b  = -6.9624 +/- 0
+c  = -0.49098 +/- 0
+--------------------------------------------------------------------------------------
+Chi^2 = 0.05824
+R^2 = -1.0105e-08
+---------------------------------------------------------------------------------------
+Iterations = 55
+Status = success
+---------------------------------------------------------------------------------------
+[21-09-2019 18:35:42	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a - b*exp(c*x)
+Y standard errors: Unknown
+Nelder-Mead Simplex algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 8.9007e-308 +/- 1.1312e-151
+b  = 7.5101e-308 +/- 1.1312e-151
+c  = 1.1282e-275 +/- 2.0799e-151
+--------------------------------------------------------------------------------------
+Chi^2 = 1.4854e-313
+R^2 = 1
+---------------------------------------------------------------------------------------
+Iterations = 23
+Status = success
+---------------------------------------------------------------------------------------
+[21-09-2019 18:35:43	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a - b*exp(c*x)
+Y standard errors: Unknown
+Nelder-Mead Simplex algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 8.9007e-308 +/- 1.0263e-132
+b  = 7.5101e-308 +/- 1.0263e-132
+c  = 1.6514e-317 +/- 1.887e-132
+--------------------------------------------------------------------------------------
+Chi^2 = 1.2226e-275
+R^2 = 1
+---------------------------------------------------------------------------------------
+Iterations = 23
+Status = success
+---------------------------------------------------------------------------------------
+[21-09-2019 18:35:44	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a - b*exp(c*x)
+Y standard errors: Unknown
+Nelder-Mead Simplex algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 6.3032 +/- 1.9661e+05
+b  = 4.5521 +/- 1.9661e+05
+c  = 1.6515e-317 +/- 0.00030013
+--------------------------------------------------------------------------------------
+Chi^2 = 0.05824
+R^2 = -1.284e-09
+---------------------------------------------------------------------------------------
+Iterations = 55
+Status = success
+---------------------------------------------------------------------------------------
+[21-09-2019 18:35:45	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a - b*exp(c*x)
+Y standard errors: Unknown
+Nelder-Mead Simplex algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 8.9007e-308 +/- 8.7339e-133
+b  = 7.5101e-308 +/- 8.7339e-133
+c  = 1.6514e-317 +/- 1.6058e-132
+--------------------------------------------------------------------------------------
+Chi^2 = 8.8546e-276
+R^2 = 1
+---------------------------------------------------------------------------------------
+Iterations = 22
+Status = success
+---------------------------------------------------------------------------------------
+[21-09-2019 18:35:47	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a - b*exp(c*x)
+Y standard errors: Unknown
+Nelder-Mead Simplex algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 8.9007e-308 +/- 1.1312e-151
+b  = 7.5101e-308 +/- 1.1312e-151
+c  = 1.6514e-317 +/- 2.0799e-151
+--------------------------------------------------------------------------------------
+Chi^2 = 1.4854e-313
+R^2 = 1
+---------------------------------------------------------------------------------------
+Iterations = 23
+Status = success
+---------------------------------------------------------------------------------------
+[21-09-2019 18:35:55	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a - b*exp(c*x)
+Y standard errors: Unknown
+Nelder-Mead Simplex algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 1.0013e-307 +/- 1.0182e-154
+b  = 4.4504e-308 +/- 1.0182e-154
+c  = 4.4503e-308 +/- 1.8722e-154
+--------------------------------------------------------------------------------------
+Chi^2 = 1.2035e-319
+R^2 = 1
+---------------------------------------------------------------------------------------
+Iterations = 0
+Status = success
+---------------------------------------------------------------------------------------
+[21-09-2019 18:36:37	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a + b/(x+c)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 6.4773 +/- 30.833
+b  = 23,291 +/- 3.0331e+05
+c  = -5,193.9 +/- 32,000
+--------------------------------------------------------------------------------------
+Chi^2 = 0.0057428
+R^2 = 0.90139
+---------------------------------------------------------------------------------------
+Iterations = 117
+Status = success
+---------------------------------------------------------------------------------------
+[21-09-2019 18:36:46	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a - b/(x+c)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 13.627 +/- 4.7254
+b  = -1.4612e+05 +/- 1.1156e+05
+c  = -12,569 +/- 4,681
+--------------------------------------------------------------------------------------
+Chi^2 = 0.0054461
+R^2 = 0.90649
+---------------------------------------------------------------------------------------
+Iterations = 18
+Status = success
+---------------------------------------------------------------------------------------
+[21-09-2019 18:36:51	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a - b/(x+c)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 1.5093 +/- 0.020039
+b  = -56.834 +/- 9.1364
+c  = -1.1075 +/- 16.673
+--------------------------------------------------------------------------------------
+Chi^2 = 0.00014262
+R^2 = 0.99755
+---------------------------------------------------------------------------------------
+Iterations = 8
+Status = success
+---------------------------------------------------------------------------------------
+[21-09-2019 18:38:42	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a + b*exp(c*x)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 1.7511 +/- 0.038158
+b  = -56.834 +/- 0
+c  = -1.1075 +/- 0
+--------------------------------------------------------------------------------------
+Chi^2 = 0.05824
+R^2 = 2.0329e-17
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[21-09-2019 18:38:50	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a + b*exp(c*x)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 1.7511 +/- 0.038158
+b  = 10 +/- 0
+c  = -1.1075 +/- 0
+--------------------------------------------------------------------------------------
+Chi^2 = 0.05824
+R^2 = 2.0329e-17
+---------------------------------------------------------------------------------------
+Iterations = 0
+Status = success
+---------------------------------------------------------------------------------------
+[21-09-2019 18:38:55	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a + b*exp(c*x)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 1.7511 +/- 0.038158
+b  = 10 +/- 0
+c  = -1.1075 +/- 0
+--------------------------------------------------------------------------------------
+Chi^2 = 0.05824
+R^2 = 2.0329e-17
+---------------------------------------------------------------------------------------
+Iterations = 0
+Status = success
+---------------------------------------------------------------------------------------
+[21-09-2019 18:39:02	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a + b*exp(c*x)
+Y standard errors: Unknown
+Nelder-Mead Simplex algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 1.7511 +/- 7.2444e-139
+b  = 10 +/- 0
+c  = -1.1075 +/- 0
+--------------------------------------------------------------------------------------
+Chi^2 = 2.0992e-275
+R^2 = 1
+---------------------------------------------------------------------------------------
+Iterations = 0
+Status = generic failure
+---------------------------------------------------------------------------------------
+[21-09-2019 18:39:12	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a + b*exp(c*x)
+Y standard errors: Unknown
+Nelder-Mead Simplex algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 4.7769e-300 +/- 2.8359e-132
+b  = 0 +/- 2.8359e-132
+c  = 5.679e-316 +/- 3.9321e-132
+--------------------------------------------------------------------------------------
+Chi^2 = 1.2103e-275
+R^2 = 1
+---------------------------------------------------------------------------------------
+Iterations = 24
+Status = success
+---------------------------------------------------------------------------------------
+[21-09-2019 18:39:23	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a + b*exp(c*x)
+Y standard errors: Unknown
+Nelder-Mead Simplex algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 4.7769e-300 +/- 4.5678e-132
+b  = 20 +/- 4.5678e-132
+c  = 5.679e-316 +/- 1.8703e-141
+--------------------------------------------------------------------------------------
+Chi^2 = 2.0978e-275
+R^2 = 1
+---------------------------------------------------------------------------------------
+Iterations = 0
+Status = generic failure
+---------------------------------------------------------------------------------------
+[21-09-2019 18:39:39	Plot: ''Graph1'']
+Exponential decay fit of dataset: Table1_2, using function: y0+A*exp(-x/t)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+A (amplitude) = 0.2793 +/- 4.348e+74
+t (e-folding time) = 1 +/- 1.1041e+73
+y0 (offset) = 1.6429 +/- 0.07103
+--------------------------------------------------------------------------------------
+Chi^2 = 0.15185
+R^2 = -1.6074
+---------------------------------------------------------------------------------------
+Iterations = 0
+Status = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[21-09-2019 18:39:43	Plot: ''Graph1'']
+Exponential decay fit of dataset: Table1_2, using function: y0+A*exp(-x/t)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+A (amplitude) = 0.2793 +/- 4.348e+74
+t (e-folding time) = 1 +/- 1.1041e+73
+y0 (offset) = 1.6429 +/- 0.07103
+--------------------------------------------------------------------------------------
+Chi^2 = 0.15185
+R^2 = -1.6074
+---------------------------------------------------------------------------------------
+Iterations = 0
+Status = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[21-09-2019 18:39:58	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a + b*exp(c*x)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 141 to x = 398
+a  = 1 +/- nan
+b  = 1.9929e-19 +/- inf
+c  = 1 +/- inf
+--------------------------------------------------------------------------------------
+Chi^2 = inf
+R^2 = -inf
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[21-09-2019 18:43:00	Plot: ''Graph1'']
+Exponential decay fit of dataset: Table1_2, using function: y0+A*exp(-x/t)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0 to x = 560
+A (amplitude) = 1.4675 +/- 0.41446
+t (e-folding time) = 1 +/- 1.0994e+19
+y0 (offset) = 1.506 +/- 0.11495
+--------------------------------------------------------------------------------------
+Chi^2 = 1.7442
+R^2 = 0.060319
+---------------------------------------------------------------------------------------
+Iterations = 0
+Status = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[21-09-2019 18:43:16	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a + b/(x+c)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0 to x = 560
+a  = 1.3838 +/- 0.10597
+b  = 124.63 +/- 44.523
+c  = 82.144 +/- 26.711
+--------------------------------------------------------------------------------------
+Chi^2 = 0.13946
+R^2 = 0.92486
+---------------------------------------------------------------------------------------
+Iterations = 5
+Status = success
+---------------------------------------------------------------------------------------
+[21-09-2019 18:43:48	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_2, using function: a + b*exp(-c*x)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0 to x = 560
+a  = 1.7945 +/- 0.067954
+b  = 1.1348 +/- 0.25426
+c  = 1 +/- 0
+--------------------------------------------------------------------------------------
+Chi^2 = 0.66034
+R^2 = 0.64425
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+</log>
