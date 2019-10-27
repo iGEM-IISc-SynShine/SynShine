@@ -147,7 +147,7 @@ void loop() {
     digitalWrite(led_pin,HIGH);
     long OD_data= sampling(1, 300);
     Serial.print(imp_data);
-    Serial.print(",");
+    Serial.print("\t");
     Serial.println(OD_data);
     digitalWrite(led_pin,LOW);
   }
