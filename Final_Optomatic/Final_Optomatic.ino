@@ -54,10 +54,8 @@ long sampling(int channel, int samples)
   long long val=0;
   for(int i=0;i<samples;i++)
   { 
-    while(digitalRead(ADS1220_DRDY_PIN))
-    {
-    }
-    //delay(5);
+    
+    delay(4);
     
     val= val+(long long)pc_ads1220.Read_WaitForData();
   }
@@ -141,13 +139,17 @@ void loop() {
  else
   { 
     digitalWrite(MOSFET,HIGH);
-    long imp_data= sampling(0,3000);
+    delay(1);
     digitalWrite(MOSFET,LOW);
+    delay(100);
+    //digitalWrite(MOSFET,HIGH);
+    long imp_data= sampling(1,3000);
+    //digitalWrite(MOSFET,LOW);
     
     digitalWrite(led_pin,HIGH);
-    long OD_data= sampling(1, 300);
+    long OD_data= sampling(0, 300);
     Serial.print(imp_data);
-    Serial.print("\t");
+    Serial.print(",");
     Serial.println(OD_data);
     digitalWrite(led_pin,LOW);
   }
