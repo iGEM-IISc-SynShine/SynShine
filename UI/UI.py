@@ -18,6 +18,12 @@ import tkinter.ttk as ttk
 
 imp_arr = []
 od_arr = []
+od_cal = 0
+od_check = False
+
+def set_od_check():
+    global od_check
+    od_check = True
 
 ser = serial.Serial(timeout = 1)
 ser.baudrate = 9600
@@ -93,13 +99,19 @@ class CL(tkinter.Frame):
         self.comPort_entry.grid(row = 1, column = 2, sticky = tkinter.N)
         self.comPort_button.grid(row = 1, column = 3, sticky = tkinter.N)
 
+        self.callibrate = tkinter.Button(self.parent, text = "Calibrate Optical Density", bg = "lavender", command = partial(set_od_check))
+        self.callibrate.grid(row = 2, column = 2)
+
         self.null = tkinter.Label(self.frameo, text = "", bg = "lavender")
         self.null.grid(row = 1, column = 0)
 
+        self.h_line = tkinter.Frame(self.parent, height = 1, width = 450, relief = "sunken", borderwidth = 1, bg = "light gray")
+        self.h_line.grid(row = 3, columnspan = 10)
+
         self.start = tkinter.Button(self.parent, text = "Start", bg = "lavender", command = partial(start))
         self.stop = tkinter.Button(self.parent, text = "Stop", bg = "lavender", command = partial(stop))
-        self.start.grid(row = 5, column = 0, columnspan = 2, pady = 5)
-        self.stop.grid(row = 5, column = 1, columnspan = 2, pady = 5)
+        self.start.grid(row = 5, column = 0, columnspan = 2, pady = 10)
+        self.stop.grid(row = 5, column = 1, columnspan = 2, pady = 10)
 
         values = {"Impedence Graph" : "1",
                   "OD Graph" : "2",
@@ -130,15 +142,18 @@ while True:
     try:
         if(var_read):
             inpt = ser.read_until('\n')
-            inpt = str(inpt)[2:-5]
+            inpt = str(inpt)[2:-6]
             print(inpt)
             if(inpt!=''):
                 try:
                     temp1, temp2 = inpt.split(',')
                     temp1 = int(temp1)
                     temp2 = int(temp2)
+                    if(od_check):
+                        od_cal = temp2
+                        od_check = False
                     imp_arr.append(temp1)
-                    od_arr.append(temp2)
+                    od_arr.append(temp2 - od_cal)
                 except ValueError:
                     pass
         win.update_idletasks()
