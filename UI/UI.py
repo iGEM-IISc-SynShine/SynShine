@@ -123,6 +123,7 @@ class CL(tkinter.Frame):
 win = tkinter.Tk()
 win.iconphoto(False, tkinter.PhotoImage(file = "logo.png"))
 CL(win)
+win.resizable(0, 0)
 ani = animation.FuncAnimation(plot, animate)
 
 while True:
