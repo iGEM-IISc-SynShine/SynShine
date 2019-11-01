@@ -133,11 +133,14 @@ while True:
             inpt = str(inpt)[2:-5]
             print(inpt)
             if(inpt!=''):
-                temp1, temp2 = inpt.split(',')
-                temp1 = int(temp1)
-                temp2 = int(temp2)
-                imp_arr.append(temp1)
-                od_arr.append(temp2)
+                try:
+                    temp1, temp2 = inpt.split(',')
+                    temp1 = int(temp1)
+                    temp2 = int(temp2)
+                    imp_arr.append(temp1)
+                    od_arr.append(temp2)
+                except ValueError:
+                    pass
         win.update_idletasks()
         win.update()
     except tkinter.TclError:
